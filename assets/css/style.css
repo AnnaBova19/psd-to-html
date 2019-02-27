@@ -1,0 +1,377 @@
+/*** HEADER ***/
+header {
+  padding: 69px 85px 65px;
+}
+.logo {
+  flex-grow: 1;
+  width: 220px;
+  height: 72px;
+  background-image: url(../svg/CODAT-LOGO_DESKTOP.svg);
+  background-size: contain;
+}
+header a {
+  font-family: 'Poppins Medium';
+  font-size: 27px;
+  color: #ffffff;
+}
+header a.contact {
+  margin-left: 54px;
+}
+
+/*** WELCOME SECTION ***/
+.welcome {
+  width: 100%;
+  height:  2040px;
+  background-image: url(../svg/BLUE-BACKGROUND.svg);
+  color: #ffffff;  
+  margin-top: -207px;
+  padding: 205px 85px 0;
+}
+.welcome-img {
+  width: 50%;
+  height:  776px;
+  background-image: url(../svg/HERO-SECTION-INTERFACE-ILLUSTRATION.svg);  
+  background-size: contain;
+}
+.welcome-text {
+  width: 50%;
+  padding-left: 85px;
+}
+.welcome button {
+  width: 45%;
+  max-width: 272px;
+  padding: 26px 0;
+}
+.sign-up-now {
+  background-color: #FF495C;
+  color: #ffffff;
+}
+.learn-more {
+  background-color: #ffffff;
+  color: #FF495C;
+  margin-left: 38px;
+}
+.how-its-done-img {
+  width: 55%;
+  height:  593px;
+  background-image: url(../images/LAPTOP-MOCKUP-WITH-COUPON-POPUP.png);  
+  background-size: contain; 
+}
+
+/*** ADVERTISE & EARN SECTION ***/
+.advertise-earn {
+  margin-top: -395px;
+  padding: 395px 85px 50px;
+  background-image: linear-gradient(to right, rgba(11, 106, 245, 0) 0, rgb(11, 106, 245, .15) 100%);
+}
+.advertise-img {
+  width: 55%;
+  max-width: 848px;
+  height:  802px;
+  background-image: url(../images/ADVERTISE-3-MOBILE-MOCKUPS.png);
+  background-size: contain;
+}
+.advertise {
+  padding-left: 10.5%;
+  color: #000000;
+}
+.earn {
+  color: #292F49;
+  margin-top: 10.5vw;
+}
+.earn-img {
+  width: 55%;
+  max-width: 1052px;
+  height:  593px;
+  background-image: url(../images/EARN-DARK-LAPTOP-PAYOUT-DASHBOARD.png); 
+  background-size: contain;   
+}
+.how-its-done-text,
+.advertise-text,
+.earn-text {
+  width: 45%;
+  padding-right: 5%;
+}
+
+/*** SIGN UP SECTION ***/
+.sign-up {
+  width: 100%;
+  height: 504px;
+  background-image: url(../svg/FOOTER-BLUE-BACKGROUND.svg);
+  color: #ffffff;
+  margin-bottom: 92px;
+}
+.sign-up-container {
+  height: 100%;
+  padding: 126px 0;
+}
+.sign-up-btn {
+  width: 518px;
+  background-color: #FF495C;
+  color: #ffffff;
+  padding: 36px 75px;
+}
+.arrow {
+  display: inline-block;
+  width: 50px;
+  height: 30px;
+  background-image: url(../svg/WHITE-ARROW-FOOTER-SECTION.svg); 
+}
+
+/*** FOOTER ***/
+footer{
+  overflow:auto;
+}
+.footer{
+  position: absolute;
+  bottom: 0;
+  margin-bottom:0;
+  width: 100%;
+  height: 94px;
+  background-color:  #333333;
+  color: #ffffff;
+  padding: 17px 0;
+}
+.social-icon {
+  width: 24px;
+  height: 24px;
+  background-color: #333333;
+  margin: 0 17px;
+  border-radius: 3px;
+}
+.google {
+  width: 24px;
+  height: 24px;
+  background-image: url(../svg/GOOGLE-PLUS-ICON.svg);
+}
+.twitter {
+  width: 24px;
+  height: 24px;
+  background-image: url(../svg/TWITTER-ICON.svg);
+}
+.facebook {
+  width: 24px;
+  height: 24px;
+  background-image: url(../svg/FACEBOOK-ICON.svg);
+}
+.snapchat {
+  width: 24px;
+  height: 24px;
+  background-image: url(../svg/SNAPCHAT-ICON.svg);
+}
+.instagram {
+  width: 24px;
+  height: 24px;
+  background-image: url(../svg/INSTAGRAM-ICON.svg);
+}
+
+/*** MEDIA ***/
+@media (max-width: 1700px) { 
+  .advertise-earn {
+    margin-top: -370px;
+    padding-top: 300px;
+  }
+}
+
+@media (max-width: 1500px) { 
+  .advertise-earn {
+    margin-top: -350px;
+    padding-top: 250px;
+    padding-bottom: 0;
+  }
+  .earn {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 1400px) { 
+  .advertise-earn {
+    margin-top: -340px;
+    padding-top: 220px;
+  }
+}
+
+@media (max-width: 1300px) { 
+  .advertise-earn {
+    margin-top: -325px;
+    padding-top: 200px;
+  }
+}
+
+@media (max-width: 1200px) { 
+  header {
+    padding: 69px 5% 65px;
+  }
+  header div.d-flex {
+    justify-content: space-between;
+  }
+  .logo {
+    flex-grow: 0;
+  }
+  .welcome-text,
+  .advertise,
+  .how-its-done-text,
+  .advertise-text,
+  .earn-text {
+    padding: 0;
+  }
+  .welcome-img,
+  .how-its-done-img,
+  .advertise-img,
+  .earn-img,
+  .welcome-text,
+  .how-its-done-text,
+  .advertise-text,
+  .earn-text {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .welcome {
+    padding: 205px 5% 0;
+  }
+  .welcome-img {
+    height: 40vw;
+    margin-top: 30px;
+  }
+  .how-its-done-img,
+  .earn-img {
+    height: 31vw;
+    margin-top: 30px;
+  }
+  .advertise-img {
+    height: 42vw;
+    margin-top: 30px;
+  }
+  .how-its-done-text,
+  .earn-text {
+    order: 1;
+  }
+  .how-its-done-img,
+  .earn-img {
+    order: 2;
+  }
+  .advertise-earn {
+    margin-top: -320px;
+    padding: 320px 5% 50px;
+  }
+  .earn {
+    margin-top: 10.5vw;
+  }
+}
+
+@media (max-width: 1100px) { 
+  .advertise-earn {
+    margin-top: -310px;
+    padding-top: 270px;
+  }
+}
+
+@media (max-width: 1000px) { 
+  .advertise-earn {
+    margin-top: -300px;
+    padding-top: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    padding: 20px 5% 65px;
+  }
+  .logo {
+    width: 95px;
+    height: 30px;
+  }
+  header a {
+    font-size: 16.5px;
+  }
+  header a.contact {
+    margin-left: 23px;
+  }
+  .welcome {
+    height: auto;
+    min-height: 1280px;
+    margin-top: -121px;
+    padding: 121px 5% 0;
+  }
+  .welcome-img {
+    min-width: 325px;
+    min-height: 322px;
+    margin-top: 25px;
+  }
+  .welcome button {
+    width: 33vw;
+    min-width: 124px;
+    padding: 12px 0;
+  }
+  .learn-more {
+    margin-left: 5vw;
+  }
+  .how-its-done-img {
+    min-width: 345px;
+    min-height: 194px;
+    order: 2;
+    margin-top: 30px;
+  }
+  .advertise-earn {
+    margin-top: -200px;
+    padding: 200px 5% 50px;
+  }
+  .advertise-img {
+    min-width: 329px;
+    min-height: 311px;
+    margin-top: 40px;
+  }
+  .earn {
+    margin-top: 50px;
+  }
+  .earn-img {
+    min-width: 357px;
+    min-height: 201px;
+    order: 2;
+    margin-top: 20px;
+  }
+  .sign-up {
+    height: 271px;
+  }
+  .sign-up-container {
+    padding: 59px 24px;
+  }
+  .sign-up-container .title {
+    margin-bottom: 0;
+  }
+  .sign-up-btn {
+    width: 265px;
+    height: 47px;
+    padding: 12px 27px;
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .arrow {
+    width: 20px;
+    height: 12px;
+  }
+}
+
+@media (max-width: 500px){ 
+  header {
+    padding: 20px 24px 65px;
+  }
+  .logo {
+    width: 19vw;
+    height: 6vw;
+  }
+  header a {
+    font-size: 3.3vw;
+  }
+  .welcome {
+    padding: 121px 24px 0;
+    background-position: 20% center;
+  }
+  .advertise-earn {
+    margin-top: -181px;
+    padding: 181px 24px 50px;
+  }
+  .sign-up {
+    background-position: 0 center;
+  }
+}
